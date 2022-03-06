@@ -1,0 +1,49 @@
+
+.body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 50%;
+    background-color: rgb(98, 124, 240);
+    color:white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 30px;
+    height: 400px;
+} 
+
+.kgweight {
+
+    color: #ADFF2F;
+    font-size:large;
+    margin-left: 10px;
+
+}
+
+#input {
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.answer-box {
+    display: flex;
+    align-items: center;
+    
+}
+
+.err {
+   color: #8B0000;
+   font-size: 30px;
+   font-style: oblique;
+   font-weight: 900;
+   align-self: center;
+}
+
